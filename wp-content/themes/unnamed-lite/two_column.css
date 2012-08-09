@@ -1,0 +1,41 @@
+#header {
+width:790px;
+}
+
+#container {
+width:798px;
+background:url(images/2col/bg_content.png) repeat-y center top !important;
+}
+
+#content {
+width:790px;
+}
+
+#toggle {
+width:790px;
+}
+
+#sidebar {
+width:235px;
+}
+
+#footer {
+width:798px;
+height:62px;
+background:url(images/2col/bg_footer.png) repeat-y center top !important;
+}
+
+#nav {
+width:790px;
+}
+
+.content-top, .content-bottom {
+width:788px;
+}
+
+.left-sidecolumn,.right-sidecolumn {
+clear:left;
+float:left;
+width:90%;
+padding:0 5px;
+}

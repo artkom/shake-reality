@@ -1,0 +1,28 @@
+div.hid { visibility: hidden; overflow: hidden; height: 1px; }  /* hack para input hiden */
+.postbox p { padding: 0 5px 0 5px !important  }
+small { color: #535353; }
+.red { color: red }
+
+.hndle  { cursor: pointer !important }
+.cursor { cursor: help !important}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         ACORDEON MENU                                         */
+/*-----------------------------------------------------------------------------------------------*/
+#accordion {list-style: none; }
+#accordion li{display: block; cursor: pointer;}
+#accordion ul {list-style: none;display: none;}
+#accordion ul li{cursor: auto; }
+#accordion a {text-decoration: none;}
+#accordion a:hover {text-decoration: underline;}
+
+.espande {float: right; background: url(../images/retract.gif);background-position:right center;background-repeat:no-repeat;padding-right:11px !important;}
+
+
+a.sm_button {padding:4px;display:block;padding-left:25px;background-repeat:no-repeat;background-position:5px 50%;text-decoration:none;border:none;}
+a.sm_button:hover {border-bottom-width:1px;}
+a.sm_bug {background-image:url(../images/bug.png);}
+a.sm_wp {background-image:url(../images/wp.png);}
+a.sm_code {background-image:url(../images/code.png);}
+a.sm_autor {background-image:url(../images/menu_fdx.png);}
+a.sm_pay {background-image:url(../images/paypal.png);}

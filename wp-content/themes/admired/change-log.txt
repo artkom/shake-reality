@@ -1,0 +1,57 @@
+=== Admired Theme Change Log ===
+Contributors: wp-ultra
+Tags: dark, light, white, black, silver, gray, blue, one-column, two-columns, three-columns, left-sidebar,
+	  right-sidebar, flexible-width, custom-background, custom-colors, custom-menu, editor-style, featured-images,
+      full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Requires at least: 3.2
+Tested up to: 3.3.1
+
+== Change Log ==
+This change log was started beginning with Version 1.0
+
+= Changes Version 1.2.1 =
+
+* Added theme suport for custom backgrounds with backwards compatibility.
+* Fixed Google Analytics from showing on admin pages.
+* Fixed TEMPLATEPATH with get_template_directory();
+
+= Changes Version 1.2 =
+
+* Fixed for internationalization
+* widened option tabs for translation
+* Thanks to - Lord-Kamina, Polov, Andrea, and Otto for help
+
+= Changes Version 1.1 =
+
+* simple bug fixes
+* options was echoing variable instead of color
+* fixed wp_title
+* last version was supposed to be 1.8 but forgot to change it in the style sheet before upload. 
+
+= Changes Version 1.0.71 =
+
+* Four new skins - Kiss of Orange, Blue Diamond, Redline, and Simple White.
+* Two new social buttons - Pinterest and replaced Google Buzz with Vimeo.
+* Added an option to change the title color on hover.
+* Added a Comment Form Autocomplete filter for Chrome users - Thanks to Otto.
+* Added a couple more Google fonts that users suggested.
+* Fixed IE7 z-index bug for superfish.
+* Fixed the "scroll to top".
+* changed the line-height for the content.
+* Stopped the styles and scripts from the option page from showing on other admin pages.
+* Moved to WP core bundled JQuery UI Tabs for the Option Page.
+* Removed wp_enqueue JQuery and SuperFish from the header and placed in functions.php
+* Made Responsive!
+
+
+= Changes Version 1.0.5 =
+
+* small bug fixes with CSS.
+* wide browser fixes.
+* validate check boxes for the option panel.
+* added thick box media upload to the opion panel and validate.
+* update .pot file
+
+
+= Changes Version 1.0 =
+* Lets Do This!

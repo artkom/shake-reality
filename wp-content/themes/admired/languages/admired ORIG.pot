@@ -1,0 +1,1363 @@
+# Copyright (C) Admired
+# This file is distributed under the same license as the Admired package.
+msgid ""
+msgstr ""
+"Project-Id-Version: admired 1.2\n"
+"Report-Msgid-Bugs-To: http://wp-ultra.com\n"
+"POT-Creation-Date: 2012-03-17 15:04-0500\n"
+"PO-Revision-Date: 2012-03-17 15:05-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Sorry, I've looked everywhere but I can't find the page you're looking for. Please try again with some different keywords."
+msgstr ""
+
+#: 404.php:19
+msgid "If you followed the link from another website, I may have removed or renamed the page. You may want to try searching for the page."
+msgstr ""
+
+#: 404.php:20
+msgid "Sorry for the inconvenience."
+msgstr ""
+
+#: 404.php:26
+msgid "Most Used Categories"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:20
+msgid "F Y"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:22
+msgid "Y"
+msgstr ""
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:48
+#: author.php:61
+#: category.php:46
+#: index.php:36
+msgid "Nothing Found"
+msgstr ""
+
+#: archive.php:52
+#: author.php:65
+#: category.php:50
+#: index.php:40
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: author.php:20
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:38
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: bottom-menu.php:12
+msgid "Main menu"
+msgstr ""
+
+#: bottom-menu.php:14
+msgid "Skip to primary content"
+msgstr ""
+
+#: bottom-menu.php:15
+msgid "Skip to secondary content"
+msgstr ""
+
+#: category.php:17
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:29
+#: comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:30
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:31
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:42
+msgid "http://wp-ultra.com/"
+msgstr ""
+
+#: footer.php:42
+msgid "Admired Theme"
+msgstr ""
+
+#: functions.php:34
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:35
+msgid "Secondary Navigation - Top"
+msgstr ""
+
+#: functions.php:123
+msgid "Post navigation"
+msgstr ""
+
+#: functions.php:124
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: functions.php:125
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:266
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:266
+#: functions.php:294
+#: image.php:38
+#: loop-aside.php:50
+#: loop-gallery.php:86
+#: loop-image.php:64
+#: loop-link.php:50
+msgid "Edit"
+msgstr ""
+
+#: functions.php:283
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#: functions.php:289
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:298
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:307
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: functions.php:323
+#, php-format
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: functions.php:343
+#: loop-aside.php:39
+#: loop-gallery.php:28
+#: loop-image.php:23
+#: loop-link.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: header.php:34
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: image.php:16
+msgid "Image navigation"
+msgstr ""
+
+#: image.php:17
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:18
+msgid "Next &rarr;"
+msgstr ""
+
+#: image.php:28
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:83
+#: loop-aside.php:40
+#: loop-gallery.php:50
+#: loop-image.php:24
+#: loop-link.php:40
+msgid "Pages:"
+msgstr ""
+
+#: loop-aside.php:16
+msgid "Aside"
+msgstr ""
+
+#: loop-aside.php:21
+#: loop-image.php:17
+#: loop-image.php:60
+#: loop-link.php:21
+msgid "Reply"
+msgstr ""
+
+#: loop-aside.php:21
+#: loop-image.php:17
+#: loop-link.php:21
+msgid "1"
+msgstr ""
+
+#: loop-aside.php:21
+#: loop-image.php:17
+#: loop-link.php:21
+msgid "%"
+msgstr ""
+
+#: loop-aside.php:48
+#: loop-link.php:48
+msgid "Leave a reply"
+msgstr ""
+
+#: loop-aside.php:48
+#: loop-gallery.php:83
+#: loop-link.php:48
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: loop-aside.php:48
+#: loop-gallery.php:83
+#: loop-link.php:48
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: loop-gallery.php:13
+msgid "Gallery"
+msgstr ""
+
+#: loop-gallery.php:58
+#: loop-gallery.php:68
+#: loop-image.php:43
+#: loop-image.php:52
+msgid ", "
+msgstr ""
+
+#: loop-gallery.php:62
+#: loop-image.php:47
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: loop-gallery.php:74
+#: loop-image.php:55
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: loop-gallery.php:83
+msgid "Leave a Reply"
+msgstr ""
+
+#: loop-image.php:12
+msgid "Image"
+msgstr ""
+
+#: loop-image.php:30
+#, php-format
+msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\" pubdate>%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+
+#: loop-image.php:60
+msgid "<strong>1</strong> Reply"
+msgstr ""
+
+#: loop-image.php:60
+msgid "<strong>%</strong> Replies"
+msgstr ""
+
+#: loop-link.php:16
+msgid "Link"
+msgstr ""
+
+#: loop-quote.php:16
+msgid "Quote"
+msgstr ""
+
+#: loop-single.php:12
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: loop-single.php:13
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop-single.php:38
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: loop-single.php:40
+#, php-format
+msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: loop-single.php:42
+#, php-format
+msgid "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: loop-single.php:67
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop-status.php:16
+msgid "Status"
+msgstr ""
+
+#: loop.php:17
+msgid "Featured"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:42
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: tag.php:17
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: top-menu.php:9
+msgid "Secondary menu"
+msgstr ""
+
+#: admin/admired-options.php:15
+msgid " Admired Options"
+msgstr ""
+
+#: admin/admired-options.php:15
+msgid "Admired Options"
+msgstr ""
+
+#: admin/admired-options.php:60
+msgid "<font size=4 color=#464646>Skin & Layout</font>"
+msgstr ""
+
+#: admin/admired-options.php:63
+msgid "<font size=2 color=#464646>Settings that change the look of your site.</font>"
+msgstr ""
+
+#: admin/admired-options.php:68
+msgid "Skin Style"
+msgstr ""
+
+#: admin/admired-options.php:71
+msgid "Which skin would you like to use?"
+msgstr ""
+
+#: admin/admired-options.php:77
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/admired-options.php:80
+msgid "Where would you like your sidebar to be?"
+msgstr ""
+
+#: admin/admired-options.php:82
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/admired-options.php:82
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/admired-options.php:82
+msgid "Three Column"
+msgstr ""
+
+#: admin/admired-options.php:82
+msgid "One Column"
+msgstr ""
+
+#: admin/admired-options.php:95
+msgid "<font size=4 color=#464646>General Appearance</font>"
+msgstr ""
+
+#: admin/admired-options.php:98
+msgid "<font size=2 color=#464646>Settings that change the look of your content.</font>"
+msgstr ""
+
+#: admin/admired-options.php:103
+msgid "Post Excerpt with Thumbnail"
+msgstr ""
+
+#: admin/admired-options.php:104
+msgid "Show thumbnail and excerpt on post. Uses the featured image."
+msgstr ""
+
+#: admin/admired-options.php:106
+msgid "Standard Link"
+msgstr ""
+
+#: admin/admired-options.php:107
+msgid "Color for most links. (#1982d1)"
+msgstr ""
+
+#: admin/admired-options.php:110
+msgid "Standard Link Visited"
+msgstr ""
+
+#: admin/admired-options.php:111
+msgid "Color for links that have been visited. (#11598F)"
+msgstr ""
+
+#: admin/admired-options.php:114
+msgid "Standard Link Hover"
+msgstr ""
+
+#: admin/admired-options.php:115
+msgid "Color for links when hovered over. (#1982d1)"
+msgstr ""
+
+#: admin/admired-options.php:118
+msgid "Content Title Color"
+msgstr ""
+
+#: admin/admired-options.php:119
+msgid "Color for the content title links. (#222222)"
+msgstr ""
+
+#: admin/admired-options.php:122
+msgid "Content Title Color on Hover"
+msgstr ""
+
+#: admin/admired-options.php:123
+msgid "Color for the content title links when hovered over. (#1982d1)"
+msgstr ""
+
+#: admin/admired-options.php:126
+msgid "Content List Bullet"
+msgstr ""
+
+#: admin/admired-options.php:127
+msgid "Bullet used for Unorderd Lists in content area."
+msgstr ""
+
+#: admin/admired-options.php:129
+#: admin/admired-options.php:364
+msgid "default"
+msgstr ""
+
+#: admin/admired-options.php:129
+#: admin/admired-options.php:364
+msgid "circle"
+msgstr ""
+
+#: admin/admired-options.php:132
+msgid "Remove Post Calendar"
+msgstr ""
+
+#: admin/admired-options.php:133
+msgid "Removes the calendar next to post titles."
+msgstr ""
+
+#: admin/admired-options.php:135
+msgid "Calendar Border Color"
+msgstr ""
+
+#: admin/admired-options.php:136
+msgid "Color of the border around the calendar. (#A0A0A0)"
+msgstr ""
+
+#: admin/admired-options.php:139
+msgid "Calendar Month BG Color"
+msgstr ""
+
+#: admin/admired-options.php:140
+msgid "Color of the calendar month background. (#BABABA)"
+msgstr ""
+
+#: admin/admired-options.php:143
+msgid "Calendar Month Text Color"
+msgstr ""
+
+#: admin/admired-options.php:144
+msgid "Color of the calendar text displaying the month. (#FFFFFF)"
+msgstr ""
+
+#: admin/admired-options.php:147
+msgid "Calendar Day BG Color"
+msgstr ""
+
+#: admin/admired-options.php:148
+msgid "Color of the calendar day background. (#BABABA)"
+msgstr ""
+
+#: admin/admired-options.php:151
+msgid "Calendar Day Text Color"
+msgstr ""
+
+#: admin/admired-options.php:152
+msgid "Color of the calendar text displaying the day. (#FFFFFF)"
+msgstr ""
+
+#: admin/admired-options.php:155
+msgid "Sicky Post Background"
+msgstr ""
+
+#: admin/admired-options.php:156
+msgid "Color of the sicky post background. (#F7F7F7)"
+msgstr ""
+
+#: admin/admired-options.php:170
+msgid "<font size=4 color=#464646>Font Options</font>"
+msgstr ""
+
+#: admin/admired-options.php:173
+msgid "<font size=2 color=#464646>Settings that change your font styles.</font>"
+msgstr ""
+
+#: admin/admired-options.php:178
+msgid "Title and Description Fonts"
+msgstr ""
+
+#: admin/admired-options.php:181
+msgid "Pick the font and type you would like to use for the header."
+msgstr ""
+
+#: admin/admired-options.php:185
+#: admin/admired-options.php:212
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/admired-options.php:186
+msgid "Font used for the title and Description."
+msgstr ""
+
+#: admin/admired-options.php:188
+msgid "Garamond, serif"
+msgstr ""
+
+#: admin/admired-options.php:195
+#: admin/admired-options.php:225
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/admired-options.php:196
+msgid "Google Font for the title and description."
+msgstr ""
+
+#: admin/admired-options.php:198
+msgid "Raleway"
+msgstr ""
+
+#: admin/admired-options.php:204
+msgid "Content Font Type"
+msgstr ""
+
+#: admin/admired-options.php:207
+msgid "Pick the font and type you would like to use for the content."
+msgstr ""
+
+#: admin/admired-options.php:213
+msgid "Font used for the content"
+msgstr ""
+
+#: admin/admired-options.php:215
+msgid "Arial, sans-serif"
+msgstr ""
+
+#: admin/admired-options.php:226
+msgid "Google Font used for the content"
+msgstr ""
+
+#: admin/admired-options.php:228
+msgid "Lobster"
+msgstr ""
+
+#: admin/admired-options.php:246
+msgid "<font size=4 color=#464646>Header Options</font>"
+msgstr ""
+
+#: admin/admired-options.php:249
+msgid "<font size=2 color=#464646>Settings that change the look of your header and menus.</font>"
+msgstr ""
+
+#: admin/admired-options.php:254
+msgid "Custom Logo"
+msgstr ""
+
+#: admin/admired-options.php:255
+msgid "Add a custom logo to the header. Click on Choose Image and upload a logo or select one out of your Media Library and click insert into post. Max: 1010px X 105px"
+msgstr ""
+
+#: admin/admired-options.php:260
+msgid "Main Menu Bar"
+msgstr ""
+
+#: admin/admired-options.php:261
+msgid "Color of the Primary menu bar. (#0281D4)"
+msgstr ""
+
+#: admin/admired-options.php:264
+msgid "Main Menu Bar hover BG"
+msgstr ""
+
+#: admin/admired-options.php:265
+msgid "Color of the Primary menu item background when hovering over item. (#026BB0)"
+msgstr ""
+
+#: admin/admired-options.php:268
+msgid "Main Menu Bar dropdown BG"
+msgstr ""
+
+#: admin/admired-options.php:269
+msgid "Color of the Primary menu drop down background. (#0281D4)"
+msgstr ""
+
+#: admin/admired-options.php:272
+msgid "Main Menu Bar dropdown Hover"
+msgstr ""
+
+#: admin/admired-options.php:273
+msgid "Color of the Primary menu drop down background on hover. (#026BB0)"
+msgstr ""
+
+#: admin/admired-options.php:276
+msgid "Main Menu Bar text"
+msgstr ""
+
+#: admin/admired-options.php:277
+msgid "Color of the Primary menu bar text item when not hovering. (#FFFFFF)"
+msgstr ""
+
+#: admin/admired-options.php:280
+msgid "Show Secondary Menu"
+msgstr ""
+
+#: admin/admired-options.php:281
+msgid "Shows a extra menu at the top of the header. Set up using <u>Appearance</u>=><u>Menus</u>."
+msgstr ""
+
+#: admin/admired-options.php:283
+msgid "Top Menu Bar"
+msgstr ""
+
+#: admin/admired-options.php:284
+msgid "Color of the secondary menu bar (#292929)"
+msgstr ""
+
+#: admin/admired-options.php:287
+msgid "Top Menu Bar Hover BG"
+msgstr ""
+
+#: admin/admired-options.php:288
+msgid "Color of the secondary menu item background when hovering over item. (#EFEFEF)"
+msgstr ""
+
+#: admin/admired-options.php:291
+msgid "Top Menu Bar dropdown BG"
+msgstr ""
+
+#: admin/admired-options.php:292
+msgid "Color of the secondary menu drop down background. (#EFEFEF)"
+msgstr ""
+
+#: admin/admired-options.php:295
+msgid "Top Menu Bar dropdown Hover"
+msgstr ""
+
+#: admin/admired-options.php:296
+msgid "Color of the secondary menu drop down background on hover. (#F9F9F9)"
+msgstr ""
+
+#: admin/admired-options.php:299
+msgid "Top Menu Bar text"
+msgstr ""
+
+#: admin/admired-options.php:300
+msgid "Color of the secondary menu bar text item when not hovering. (#EEEEEE)"
+msgstr ""
+
+#: admin/admired-options.php:303
+msgid "Normal Menu Text"
+msgstr ""
+
+#: admin/admired-options.php:304
+msgid "Check to use normal font style for menu text instead of bold."
+msgstr ""
+
+#: admin/admired-options.php:306
+msgid "Disable Superfish Menu Effects"
+msgstr ""
+
+#: admin/admired-options.php:307
+msgid "Removes the arrows next to your menu items."
+msgstr ""
+
+#: admin/admired-options.php:309
+msgid "Superfish Colors"
+msgstr ""
+
+#: admin/admired-options.php:310
+msgid "Color of the Superfish arrows on the menu bar."
+msgstr ""
+
+#: admin/admired-options.php:314
+msgid "Site Title"
+msgstr ""
+
+#: admin/admired-options.php:315
+msgid "Color of the blog's main title in header. (#F7F7F7)"
+msgstr ""
+
+#: admin/admired-options.php:318
+msgid "Site Title Hover"
+msgstr ""
+
+#: admin/admired-options.php:319
+msgid "Color of the blog's main title in header on mouse hover. (#1982D1)"
+msgstr ""
+
+#: admin/admired-options.php:322
+msgid "Site Description"
+msgstr ""
+
+#: admin/admired-options.php:323
+msgid "Color of the blog's description in header. (#C4C4C4)"
+msgstr ""
+
+#: admin/admired-options.php:326
+msgid "Hide Title and Discription"
+msgstr ""
+
+#: admin/admired-options.php:327
+msgid "Hides the site title and discription from the header."
+msgstr ""
+
+#: admin/admired-options.php:329
+msgid "Search Bar Placement"
+msgstr ""
+
+#: admin/admired-options.php:330
+msgid "Where would you like the search bar? Menu, header, or none at all."
+msgstr ""
+
+#: admin/admired-options.php:332
+msgid "Menu"
+msgstr ""
+
+#: admin/admired-options.php:332
+#: admin/admired-options.php:619
+msgid "Header"
+msgstr ""
+
+#: admin/admired-options.php:332
+msgid "None"
+msgstr ""
+
+#: admin/admired-options.php:345
+msgid "<font size=4 color=#464646>Sidebar Options</font>"
+msgstr ""
+
+#: admin/admired-options.php:348
+msgid "<font size=2 color=#464646>Settings that change the look of your sidebar.</font>"
+msgstr ""
+
+#: admin/admired-options.php:353
+msgid "Widget Title Background Color"
+msgstr ""
+
+#: admin/admired-options.php:354
+msgid "This will change the background color of the widget title. (#66686E)"
+msgstr ""
+
+#: admin/admired-options.php:357
+msgid "Widget Title Text Color"
+msgstr ""
+
+#: admin/admired-options.php:358
+msgid "This will change the text color of the widget title. (#FFFFFF)"
+msgstr ""
+
+#: admin/admired-options.php:361
+msgid "widget List Bullet"
+msgstr ""
+
+#: admin/admired-options.php:362
+msgid "Bullet used for Unorderd Lists in sidebar area."
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "disc"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "square"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "circle-black"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "circle-blue"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "circle-white"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "star-black"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "star-blue"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "star-yellow"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "square-black"
+msgstr ""
+
+#: admin/admired-options.php:364
+msgid "square-blue"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "square-white"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "check-black"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "check-blue"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "check-green"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "check-white"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "heart-red"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "paw-print"
+msgstr ""
+
+#: admin/admired-options.php:365
+msgid "radiation-black"
+msgstr ""
+
+#: admin/admired-options.php:377
+msgid "<font size=4 color=#464646>Comment Options</font>"
+msgstr ""
+
+#: admin/admired-options.php:380
+msgid "<font size=2 color=#464646>Settings that change the look of your comments.</font>"
+msgstr ""
+
+#: admin/admired-options.php:385
+msgid "Guest Comment BG"
+msgstr ""
+
+#: admin/admired-options.php:386
+msgid "Changes the background color of the guest comments. (#F6F6F6)"
+msgstr ""
+
+#: admin/admired-options.php:389
+msgid "Author Comment BG"
+msgstr ""
+
+#: admin/admired-options.php:390
+msgid "Changes the background color of the author comments. (#DDDDDD)"
+msgstr ""
+
+#: admin/admired-options.php:393
+msgid "Leave A Reply Form BG"
+msgstr ""
+
+#: admin/admired-options.php:394
+msgid "Changes the background color of the leave a reply form. (#DDDDDD)"
+msgstr ""
+
+#: admin/admired-options.php:407
+msgid "<font size=4 color=#464646>Footer Options</font>"
+msgstr ""
+
+#: admin/admired-options.php:410
+msgid "<font size=2 color=#464646>Settings that change the look of your footer.</font>"
+msgstr ""
+
+#: admin/admired-options.php:415
+msgid "Remove Scroll to Top"
+msgstr ""
+
+#: admin/admired-options.php:416
+msgid "Removes the scroll to top button in the footer."
+msgstr ""
+
+#: admin/admired-options.php:418
+msgid "Remove admired Link"
+msgstr ""
+
+#: admin/admired-options.php:419
+msgid "It is completely optional, but if you like the Theme I would appreciate it if you keep the credit link at the bottom, or else consider making a contribution to help future development of this Theme."
+msgstr ""
+
+#: admin/admired-options.php:421
+msgid "Site Copyright"
+msgstr ""
+
+#: admin/admired-options.php:422
+msgid "If you enter anything here, the default copyright notice in the footer will be replaced with the text here. It will not automatically update from year to year. Use <code>&amp;copy;</code> to display &copy;. You can use other HTML as well."
+msgstr ""
+
+#: admin/admired-options.php:425
+msgid "Footer HTML"
+msgstr ""
+
+#: admin/admired-options.php:427
+msgid "Help with HTML links"
+msgstr ""
+
+#: admin/admired-options.php:428
+msgid "This code will be inserted into the footer area, right after the Footer widgets, but right before the before the Site Copyright. This could include extra information, Links, visit counters, etc."
+msgstr ""
+
+#: admin/admired-options.php:442
+msgid "<font size=4 color=#464646>Pagination</font>"
+msgstr ""
+
+#: admin/admired-options.php:445
+msgid "<font size=2 color=#464646>Numbered post pages.</font>"
+msgstr ""
+
+#: admin/admired-options.php:450
+msgid "Text Color"
+msgstr ""
+
+#: admin/admired-options.php:451
+msgid "Changes the text color of the text and page numbers. (#FFFFFF)"
+msgstr ""
+
+#: admin/admired-options.php:454
+msgid "Background Color"
+msgstr ""
+
+#: admin/admired-options.php:455
+msgid "Changes the Pagination background color. (#878A92)"
+msgstr ""
+
+#: admin/admired-options.php:458
+msgid "Text Color on Hover"
+msgstr ""
+
+#: admin/admired-options.php:459
+msgid "Changes the text color of the text and page numbers when hovered over. (#FFFFFF)"
+msgstr ""
+
+#: admin/admired-options.php:462
+msgid "BackGround Color on Hover"
+msgstr ""
+
+#: admin/admired-options.php:463
+msgid "Changes the background color when hovered over. (#686A71)"
+msgstr ""
+
+#: admin/admired-options.php:466
+msgid "Text Color on Current Page"
+msgstr ""
+
+#: admin/admired-options.php:467
+msgid "Changes the text color of the text and page numbers on current page. (#333333)"
+msgstr ""
+
+#: admin/admired-options.php:470
+msgid "BackGround Color on Current Page"
+msgstr ""
+
+#: admin/admired-options.php:471
+msgid "Changes the background color on current page. (#686A71)"
+msgstr ""
+
+#: admin/admired-options.php:484
+msgid "<font size=4 color=#464646>Social Icons</font>"
+msgstr ""
+
+#: admin/admired-options.php:487
+msgid "<font size=2 color=#464646>Display social icons in the header</font>"
+msgstr ""
+
+#: admin/admired-options.php:492
+msgid "Show Social Icons"
+msgstr ""
+
+#: admin/admired-options.php:493
+msgid "Shows social follow me icons in the header."
+msgstr ""
+
+#: admin/admired-options.php:496
+msgid "RSS"
+msgstr ""
+
+#: admin/admired-options.php:497
+msgid "RSS Feed."
+msgstr ""
+
+#: admin/admired-options.php:499
+msgid "Facebook"
+msgstr ""
+
+#: admin/admired-options.php:500
+msgid "Place your Facebook page ID in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:503
+msgid "Twitter"
+msgstr ""
+
+#: admin/admired-options.php:504
+msgid "Place your Twitter ID in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:507
+msgid "Google Plus"
+msgstr ""
+
+#: admin/admired-options.php:508
+msgid "Place your Google Plus ID in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:511
+msgid "Vimeo"
+msgstr ""
+
+#: admin/admired-options.php:512
+msgid "Place your Vimeo ID in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:515
+msgid "Youtube"
+msgstr ""
+
+#: admin/admired-options.php:516
+msgid "Place your Youtube ID in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:519
+msgid "Pinterest"
+msgstr ""
+
+#: admin/admired-options.php:520
+msgid "Place your Pinterest ID in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:533
+msgid "<font size=4 color=#464646>Advanced Options</font>"
+msgstr ""
+
+#: admin/admired-options.php:536
+msgid "<font size=2 color=#464646>Custom CSS and SEO Plugin Support</font>"
+msgstr ""
+
+#: admin/admired-options.php:541
+msgid "! Use SEO Plugin Instead"
+msgstr ""
+
+#: admin/admired-options.php:542
+msgid "Check this box if using an SEO plugin to stop from getting duplicate META tags. Recommended:"
+msgstr ""
+
+#: admin/admired-options.php:543
+msgid "WordPress SEO by Yoast"
+msgstr ""
+
+#: admin/admired-options.php:545
+msgid "Custom CSS "
+msgstr ""
+
+#: admin/admired-options.php:547
+msgid "Help with CSS"
+msgstr ""
+
+#: admin/admired-options.php:548
+msgid "This input area is one of the most important options in admired for customizing your site. Code entered into this box is included right before the &lt;/HEAD&gt; tag on each page of your site. The most important use for this area is to enter custom CSS rules to control the look of your site. <strong>!Do Not Use</strong> &lt;style&gt; tags. If you need to style something for Internet Explorer, simply add <code>#ie6</code>, <code>#ie7</code>, or <code>#ie8</code> before the selector your styling. ( eg. <code>#ie7 #site-title { margin-top: 0px;}</code> )"
+msgstr ""
+
+#: admin/admired-options.php:562
+msgid "<font size=4 color=#464646>Google Analytics</font>"
+msgstr ""
+
+#: admin/admired-options.php:565
+msgid "<font size=2 color=#464646>Google Analytics Tracking Code</font>"
+msgstr ""
+
+#: admin/admired-options.php:570
+msgid "Google Analytics- Web Property ID"
+msgstr ""
+
+#: admin/admired-options.php:572
+msgid "Google Analytics"
+msgstr ""
+
+#: admin/admired-options.php:573
+msgid "<font color=#444>Note:</font> the Google Analytics script now goes in the &lt;head&gt; element to better support the new Google Analytics script. Only put the Web Property ID (eg. \"<b>UA-XXXXXXXX-X</b>\") in the textbox."
+msgstr ""
+
+#: admin/admired-options.php:578
+msgid "Clicky Analytics- Site ID"
+msgstr ""
+
+#: admin/admired-options.php:580
+msgid "Clicky Analytics"
+msgstr ""
+
+#: admin/admired-options.php:581
+msgid "What is your site ID? Go to your Clicky dashboard and look at the URL. You should see a \"?site_id=123\" (example) on the end. In this case, 123 would be your site ID."
+msgstr ""
+
+#: admin/admired-options.php:597
+msgid "Theme Options"
+msgstr ""
+
+#: admin/admired-options.php:598
+msgid "Customize the look of your theme with these settings. "
+msgstr ""
+
+#: admin/admired-options.php:608
+msgid "Admired options reset."
+msgstr ""
+
+#: admin/admired-options.php:610
+msgid "Admired options saved."
+msgstr ""
+
+#: admin/admired-options.php:616
+msgid "Layout"
+msgstr ""
+
+#: admin/admired-options.php:617
+msgid "General"
+msgstr ""
+
+#: admin/admired-options.php:618
+msgid "Fonts"
+msgstr ""
+
+#: admin/admired-options.php:620
+msgid "Sidebar"
+msgstr ""
+
+#: admin/admired-options.php:621
+msgid "Comments"
+msgstr ""
+
+#: admin/admired-options.php:622
+msgid "Footer"
+msgstr ""
+
+#: admin/admired-options.php:623
+msgid "Pagination"
+msgstr ""
+
+#: admin/admired-options.php:624
+msgid "Social"
+msgstr ""
+
+#: admin/admired-options.php:625
+msgid "Advanced"
+msgstr ""
+
+#: admin/admired-options.php:626
+msgid "Analytics"
+msgstr ""
+
+#: admin/admired-options.php:837
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/admired-options.php:863
+msgid "Need Help? Got a Suggestion? Let me help you."
+msgstr ""
+
+#: admin/admired-options.php:864
+msgid "Forum password is:"
+msgstr ""
+
+#: admin/admired-options.php:876
+msgid "Like the Theme? Help it stay up to date."
+msgstr ""
+
+#: admin/admired-options.php:884
+msgid "Reset / Delete Settings"
+msgstr ""
+
+#: admin/admired-options.php:886
+msgid "<font color#222><b>Caution:</b></font> All entries will be deleted from database."
+msgstr ""
+
+#: widget/flickr.php:7
+msgid "Displays your flickr photos"
+msgstr ""
+
+#: widget/flickr.php:8
+msgid "Admired - Flickr"
+msgstr ""
+
+#: widget/flickr.php:42
+msgid "Title"
+msgstr ""
+
+#: widget/flickr.php:47
+msgid "UserID"
+msgstr ""
+
+#: widget/flickr.php:47
+msgid "GetFlickr<font color=#FF0084>ID</font>"
+msgstr ""
+
+#: widget/flickr.php:52
+msgid "Number to Display"
+msgstr ""
+
+#: widget/flickr.php:57
+msgid "Link Text"
+msgstr ""
+
+#: widget/google-translate.php:10
+msgid "Translate your site with Google."
+msgstr ""
+
+#: widget/google-translate.php:11
+msgid "Admired Google Translator"
+msgstr ""
+
+#: widget/google-translate.php:38
+#: widget/twitter.php:59
+#: widget/two-column-text.php:57
+msgid "Title:"
+msgstr ""
+
+#: widget/twitter.php:13
+msgid "Display your recent Twitter status."
+msgstr ""
+
+#: widget/twitter.php:32
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: widget/twitter.php:54
+msgid "Recent tweets"
+msgstr ""
+
+#: widget/twitter.php:63
+msgid "Twitter Username:"
+msgstr ""
+
+#: widget/twitter.php:67
+msgid "Number of tweets to display:"
+msgstr ""
+
+#: widget/two-column-text.php:9
+msgid "Text Widget with Two Columns."
+msgstr ""
+
+#: widget/two-column-text.php:11
+msgid "Admired Text 2"
+msgstr ""
+
+#: widget/two-column-text.php:59
+msgid "Left Side:"
+msgstr ""
+
+#: widget/two-column-text.php:61
+msgid "Right Side:"
+msgstr ""
+
+#: widget/two-column-text.php:64
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: widget/widget-functions.php:11
+msgid "Main Sidebar"
+msgstr ""
+
+#: widget/widget-functions.php:20
+msgid "Second Sidebar"
+msgstr ""
+
+#: widget/widget-functions.php:29
+msgid "Footer Area One"
+msgstr ""
+
+#: widget/widget-functions.php:31
+#: widget/widget-functions.php:41
+#: widget/widget-functions.php:51
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: widget/widget-functions.php:39
+msgid "Footer Area Two"
+msgstr ""
+
+#: widget/widget-functions.php:49
+msgid "Footer Area Three"
+msgstr ""
+

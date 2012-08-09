@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ДОГыукы 1.0.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-01-20 21:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: Jenyay <jenyay.ilin@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: ljusers.php:74
+msgid "Hacker?"
+msgstr "Хацкер?"
+
+#: ljusers.php:95
+msgid "Userinfo image url:"
+msgstr "Ссылка на картинку для ЖЖ-пользователей"
+
+#: ljusers.php:95
+msgid "Community image url:"
+msgstr "Ссылка на картинку для ЖЖ-сообществ"
+
+#: ljusers.php:86
+msgid "LJUsers Settings"
+msgstr "Параметры плагина LJUsers"
+
+#: ljusers.php:98,
+#: 107
+msgid "Default value: "
+msgstr "Значение по умолчанию: "
+
+#: ljusers.php:149,
+#: 107
+msgid "Liveinternet (man) image url:"
+msgstr "Ссылка на картинку пользователя liveinternet (парень):"
+
+#: ljusers.php:158,
+#: 107
+msgid "Liveinternet (girl) image url:"
+msgstr "Ссылка на картинку пользователя liveinternet (девушка):"
+

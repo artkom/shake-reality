@@ -1,0 +1,127 @@
+/*
+ * $Date: 2010/03/04 12:30:32 $
+ * $Revision: 1.0 $
+ */
+
+/************************************************/
+/*           CSS for whole navigation bar       */
+
+/* Parent DIV containing whole page navigation bar */
+.zmg_pn {
+    font-family: Verdana, Arial, Sans-Serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 90%;
+    color: #121212;
+    font-weight: bold;
+}
+
+/*  All links inside the navigation bar */
+.zmg_pn span {
+    margin: 0;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+
+.zmg_pn a {
+    padding: 5px;
+}
+
+.zmg_pn span:hover {
+    background-color: #cdcdcd ;
+}
+
+/*  Following declaration hides standard navigation of Classic theme  */
+.navigation {
+    display:none;
+}
+
+
+/************************************************/
+/*           CSS for blogroll navigation        */
+
+/* Current page sign */
+.zmg_pn_current {
+    padding: 7px !important;
+    background-color: #dcdcdc ;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/* Link to next page */
+.zmg_pn_next {
+    background-color: #fafafa ;
+}
+
+.zmg_pn_next:hover {
+    background-color: #cdcdcd ;
+}
+
+/* Link to previous page */
+.zmg_pn_prev {
+    background-color: #fafafa ;
+}
+
+.zmg_pn_prev:hover {
+    background-color: #cdcdcd ;
+}
+
+/* Common link */
+.zmg_pn_standar {
+    background-color: #fafafa ;
+}
+
+.zmg_pn_standar:hover {
+    background-color: #cdcdcd ;
+}
+
+/* Inactive page sign (i.e. without link) */
+.zmg_pn_inactive {
+    background-color: #e3e3e3 ;
+}
+
+/* Separator */
+.zmg_pn_separator {
+    padding: 2px;
+}
+
+
+/************************************************/
+/*      CSS for quick links on single post      */
+
+/* Link to previous post */
+.zmg_pn_prev_post {
+    float: left;
+    MAX-WIDTH: 47%;
+    min-height: 30px;
+    text-align: left;
+    margin: 5px;
+    padding: 2px;
+    background-color: #fafafa ;
+}
+
+.zmg_pn_prev_post:hover {
+    background-color: #cdcdcd ;
+}
+
+/* Link to next post */
+.zmg_pn_next_post {
+    float: right;
+    MAX-WIDTH: 47%;
+    min-height: 30px;
+    text-align: right;
+    margin: 5px;
+    padding: 2px;
+    background-color: #fafafa ;
+}
+
+.zmg_pn_next_post:hover {
+    background-color: #cdcdcd ;
+}
+
+
+/************************************************/
+/*     Please don't modify following style      */
+.zmg_pn_clear {
+    clear: both;
+}

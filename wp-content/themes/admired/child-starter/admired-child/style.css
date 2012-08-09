@@ -1,0 +1,13 @@
+/*
+Theme Name: Admired Child
+Description: Child theme for the Admired theme
+Author: Yours Truly
+Author URI: http://wp-ultra.com
+Template: admired
+Version: 1.0
+*/
+
+@import url("../admired/style.css");
+
+/* Add specific style overrides below.
+-------------------------------------*/

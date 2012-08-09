@@ -1,0 +1,587 @@
+/*  
+Theme Name: Unnamed Lite
+Theme URI: http://xuyiyang.com/wordpress-themes/unnamed/
+Description: Unnamed is a three-column, widget-ready wordpress theme. It is easy to use and highly customizable.
+Version: 1.0
+Author: Xu Yiyang
+Author URI: http://xuyiyang.com/
+Tags: Blue, custom header, fixed width, three columns, widgets, option page, easy-customization.
+
+This theme uses the wonderful Sweetie Icons by Joseph North:
+http://sweetie.sublink.ca/
+
+The theme is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* General */
+*, html {
+	margin:0;
+	padding:0;
+}
+body {
+	font:62.5% "Lucida Grande", Segoe UI, Verdana, Arial, sans-serif;
+	text-align:center;
+}
+fieldset, select, img {
+	border:0;
+}
+hr, #searchform br, .counter {
+	display:none;
+}
+a, a:link, a:active, a:visited {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+p {
+	margin:0 0 10px;
+}
+ol li {
+	list-style:decimal outside;
+}
+acronym, abbr, span.caps {
+	cursor:help;
+}
+acronym, abbr {
+	border-bottom:1px dashed #fc0;
+}
+blockquote {
+	border-left:3px solid #ccc;
+	margin:20px;
+	padding-left:10px;
+}
+cite, ins {
+	text-decoration:none;
+}
+code, pre, kbd {
+	font:1em 'Courier New', Courier, sans-serif;
+}
+small {
+	font:.8em Arial, Helvetica, sans-serif;
+	color:#777;
+}
+strike, del {
+	color:#777;
+	text-decoration:line-through;
+}
+label {
+	cursor:pointer;
+}
+h1, h2, h3, h4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+	font-size:1.8em;
+	text-align:left;
+	padding:21px 0 5px 20px;
+}
+h2 {
+	margin:5px 0;
+	font-size:1.6em;
+}
+h3, h4 {
+	margin:15px 0 0;
+	font-size:1.2em;
+}
+/* Container */
+#container {
+	position:relative;
+	margin:0 auto;
+	font-size:1.2em;
+	width:970px;
+	background:url(images/bg_content.png) repeat-y center top;
+}
+#content {
+	width:960px;
+	margin:0 auto;
+}
+/* Header and Navigation */
+#header {
+	margin:0 auto;
+	line-height:1.2em;
+	width:960px;
+}
+.description {
+	text-align:left;
+	padding:0 0 5px 20px;
+	font:1em Georgia, "Times New Roman", Times, serif;
+}
+#nav {
+	display:block;
+	height:32px;
+	margin:0 auto !important;
+	margin:0;
+	padding:0;
+	text-align:left;
+	letter-spacing:0.15em;
+	text-transform:uppercase;
+	width:960px;
+	background:url(images/bg_nav.png) repeat-x left top transparent;
+	list-style:none;
+	z-index:8;
+}
+#nav li {
+	float:left;
+	padding:0;
+	margin:0;
+}
+#nav li a {
+	display:block;
+	line-height:32px;
+	padding:0 10px;
+	color:#fff;
+	text-decoration:none;
+}
+#nav li a:hover {
+	color:#fff;
+	background:#333;
+}
+#nav li li {
+	width:200px;
+}
+#nav ul a {
+	color:#fff;
+	line-height:24px;
+}
+#nav ul {
+	position:absolute;
+	z-index:500;
+	top:auto;
+	list-style:none;
+	display:none;
+	width:200px;
+	list-style:none;
+	text-align:center;
+	border:1px solid #333;
+	background:url(images/bg_nav_ul.png) repeat left top transparent !important;
+	background:#444;
+}
+#nav ul ul {
+	top:0;
+	left:100%;
+}
+#nav li:hover, #nav li.sfhover {
+	color:#fff;
+	background:#333;
+	cursor:pointer;
+	z-index:100;
+}
+#nav li:hover ul ul, #nav li li:hover ul ul, #nav li li li:hover ul ul, #nav li li li li:hover ul ul, #nav li.sfhover ul ul, #nav li li.sfhover ul ul, #nav li li li.sfhover ul ul, #nav li li li li.sfhover ul ul {
+	display:none;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul, #nav li li li li.sfhover ul {
+	display:block;
+}
+/* Primary Content and Entries */
+#primary-content {
+	float:left;
+	text-align:left;
+	line-height:1.6em;
+	margin:0 1.5%;
+	width:500px;
+	display:inline;
+	overflow:hidden;
+}
+.pagetitle {
+	margin-top:15px;
+	text-align:center;
+}
+.entry {
+	text-align:left;
+	padding:10px 8px;
+}
+.entry ul, .entry ol {
+	margin:0 0 0 40px;
+}
+.entry li {
+	padding-bottom:8px;
+}
+.entry-header {
+	font-size:1.6em;
+	font-weight:400;
+	margin:0;
+	padding:3px 0;
+}
+.entry-date {
+	text-align:right;
+	font-size:.9em;
+	color:#777;
+	background:url(images/bg_meta.png) no-repeat top center;
+}
+.entry-footer {
+	color:#ccc;
+	font-size:0.9em;
+	text-align:right;
+	margin:0 0 20px;
+	line-height:1.2em;
+	padding:4px 0;
+	background:url(images/bg_meta.png) no-repeat top center;
+}
+/* Sidebar */
+#sidebar {
+	float:left;
+	line-height:1.2em;
+	margin:13px 1.5% !important;
+	margin:13px 0;
+	width:400px;
+	text-align:left;
+	font-size:1em;
+}
+#sidebar h2 {
+	font-size:1.2em;
+	font-weight:400;
+	margin:10px 2px 0 7px;
+	padding:2px 0;
+}
+#sidebar ul {
+	color:#777;
+	list-style:none;
+}
+#sidebar li {
+	width:100%;
+}
+#sidebar ul ul li {
+	width:100%;
+	margin:0 5px;
+	padding:2px;
+}
+#sidebar ul ul li a, #sidebar ul ul li a:link, #sidebar ul ul li a:visited {
+	padding:2px 4px;
+}
+.left-sidecolumn {
+	clear:left;
+	float:left;
+	width:46%;
+	padding:0 2%;
+}
+.right-sidecolumn {
+	clear:right;
+	float:right;
+	width:46%;
+	padding:0 2%;
+}
+.intro {
+	font-size:.9em;
+	color:#777;
+	width:90%;
+	margin:8px 4%;
+	padding:0 0 15px 0;
+	background:url(images/bg_meta.png) no-repeat center bottom;
+	line-height:1.4em;
+}
+/* Shelf */
+#shelf {
+	float:left;
+	line-height:1.2em;
+	width:100%;
+}
+#toggle {
+	width:960px;
+	margin:0 auto !important;
+	margin:0;
+	text-align:left;
+	background:#000;
+	list-style:none;
+	overflow:hidden;
+}
+#toggle h2 {
+	color:#fff;
+	font-size:1.2em;
+	font-weight:400;
+	margin:15px 2px 0;
+}
+#toggle ul {
+	list-style:none;
+	margin:10px 0 10px;
+}
+#toggle li {
+	float:left;
+	width:21%;
+	background:transparent;
+	margin-left:1.8% !important;
+	margin-left:1.5%;
+	padding:0 4px 6px 4px;
+	display:inline;
+}
+* html #toggle li {
+	width:20%;
+}
+#toggle ul li {
+	width:100%;
+	margin:2px 0;
+	padding:0 8px;
+}
+#toggle ul li a, #toggle ul li a:link, #toggle ul li a:visited {
+	display:block;
+	background:transparent;
+	color:#fff;
+	padding:2px;
+	border-top:1px solid #3465A4;
+	border-bottom:1px solid #3465A4;
+	text-decoration:none;
+	white-space:nowrap;
+}
+#toggle ul li a:hover {
+	border-top:1px solid #fc0;
+	border-bottom:1px solid #fc0;
+}
+#toggle li.tags {
+	width:45%;
+}
+#toggle li.tags a:hover {
+	background:none;
+	text-decoration:underline;
+}
+#sidebar ul ul, #toggle ul {
+	margin:0;
+	padding:0 0 10px;
+}
+/* Footer */
+#footer {
+	clear:both;
+	height:64px;
+	margin:0 auto;
+	width:970px;
+	background:url(images/bg_footer.png) no-repeat top center transparent;
+}
+#footer p {
+	color:#fff;
+	text-align:center;
+	font-size:.9em;
+	line-height:1.5em;
+	padding:12px 0 0;
+}
+/* Search */
+#search {
+	width:100%;
+	line-height:1em;
+	display:block;
+}
+.searchinput {
+	font-size:1em;
+	width:88%;
+	margin:5px 4%;
+	padding:3px;
+	border:1px solid #ccc;
+	height:16px;
+	background:url(images/bg_search.png) right 3px no-repeat #f4f4f4;
+}
+.searchinput:focus, .searchinput:hover {
+	border:1px solid #fc0;
+	background:url(images/bg_search.png) right -16px no-repeat #fff;
+}
+
+/* Comments and Trackbacks */
+.comment-section {
+	margin:30px 10px;
+	text-align:left;
+}
+#leavecomment {
+	margin:30px 25px 20px 0 !important;
+	text-align:center;
+	color:#ccc;
+	font:1.8em Georgia, "Times New Roman", Times, serif;
+}
+.section-title {
+	font-size:1.6em;
+	font-weight:400;
+	text-align:center;
+	margin:5px 25px 5px 0;
+}
+#commentform {
+	margin:15px 0;
+}
+input#author, input#email, input#url, textarea#comment {
+	border:1px solid #ccc;
+	padding:1px;
+	background:#f4f4f4;
+}
+#commentform input:focus, #commentform textarea:focus, #commentform input:hover, #commentform textarea:hover {
+	border:1px solid #fc0;
+	background:#fff;
+}
+textarea#comment {
+	width:99%;
+}
+#submit {
+	float:right;
+	margin:0 0 0 10px;
+	border:1px solid #3465A4;
+	color:#fff;
+	background:#5D8BB3;
+	padding:0 2px;
+}
+#submit:hover {
+	border:1px solid #3465A4 !important;
+	color:#fff !important;
+	background:#3465A4 !important;
+}
+.comment-header {
+	text-align:left;
+	margin:4px 0;
+	font:1.6em Georgia, "Times New Roman", Times, serif;
+}
+.comment-content {
+	margin:10px;
+}
+.comment-footer {
+	text-align:left;
+	margin:4px 0 0;
+	font-size:.9em;
+}
+#commentlist {
+	list-style:none;
+}
+#commentlist li {
+	margin:10px 0;
+	list-style:none;
+	padding:4px 0;
+	line-height:1.8em;
+	background:url(images/bg_meta.png) no-repeat top center;
+}
+#commentlist li .counter {
+	display:none;
+}
+#commentlist li img {
+	padding:0;
+	border:0;
+}
+#commentlist li span.gravatar {
+	float:right;
+	margin:2px;
+	border:1px solid #ccc;
+	width:32px;
+	height:32px;
+}
+#error {
+	margin:2px;
+	padding:2px;
+	text-align:center;
+	color:#FF0000;
+	background:#FFFF99;
+	border-left:1px solid #fc0;
+	padding:2px 5px;
+}
+/* Images and float */
+img {
+	border:0;
+}
+p img {
+	border:0;
+	max-width:100%;
+	padding:2px;
+}
+
+.aligncenter,div.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.alignleft {
+	float:left;
+}
+
+.alignright {
+	float:right;
+}
+
+.wp-caption {
+	border:1px solid #ddd;
+	text-align:center;
+	background-color:#f3f3f3;
+	padding-top:4px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	margin:10px;
+}
+
+.wp-caption img {
+	border:0 none;
+	margin:0;
+	padding:0;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+
+.feedlink img {
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+}
+/* Text align */
+.center {
+	text-align:center;
+}
+.item {
+	text-align:right;
+}
+/* Float */
+.floatright {
+	float:right;
+}
+.floatleft {
+	float:left;
+}
+/* Miscellaneous */
+.content-top {
+	font-size:.9em;
+	text-align:right;
+	width:958px;
+	background:url(images/bg_content_top.png) transparent repeat-x top center;
+	margin:0 1px;
+	height:15px;
+}
+.content-top a {
+	margin:0 15px 0;
+}
+.content-bottom {
+	background:url(images/bg_content_bottom.png) repeat-x bottom left;
+	height:6px;
+	margin:0 1px;
+	width:958px;
+}
+.navigation {
+	display:block;
+	font-size:.9em;
+	text-align:center;
+	padding:10px 0;
+}
+.alert {
+	color:#FF0000;
+	background:#FFFF99;
+	border:1px solid #fc0;
+	text-align:center;
+	margin:10px auto;
+	padding:5px;
+}
+.metacmt {
+	background:url(images/comment.png) left center no-repeat;
+	padding:2px 0 2px 17px;
+}
+.metacat {
+	background:url(images/tag1.png) left center no-repeat;
+	padding:2px 0 2px 16px;
+}
+.metatag {
+	color:#ccc;
+	background:url(images/tag2.png) left center no-repeat;
+	padding:0 0 0 16px;
+}
+.metaedit {
+	background:url(images/edit.png) left center no-repeat;
+	padding:2px 0 2px 17px;
+}
+.clear {
+	clear:both;
+}

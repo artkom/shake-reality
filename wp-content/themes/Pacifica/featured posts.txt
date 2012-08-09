@@ -1,0 +1,30 @@
+<div id="s3slider">
+<ul id="s3sliderContent">
+<li class="s3sliderImage">
+<img src="http://3.bp.blogspot.com/_Ax-O2ayi6kU/TSGsLt4NWOI/AAAAAAAABCg/3Uukug-mi0w/s1600/1.jpg" />
+<span><strong><a href="#">Blockquote</a></strong>
+
+<p>Sed dignissim mauris nec velit ultrices id euismod orci iaculis. Aliquam ut justo id massa consectetur pellentesque pharetra ullamcorper nisl...</p>
+</span>
+</li>
+
+<li class="s3sliderImage">
+<img src="http://4.bp.blogspot.com/_Ax-O2ayi6kU/TSGsL1QJGcI/AAAAAAAABCo/0SmBzB_AvBE/s1600/2.jpg" />
+<span><strong><a href="#">Duis non justo nec auge</a></strong>
+
+<p>Sed dignissim mauris nec velit ultrices id euismod orci iaculis. Aliquam ut justo id massa consectetur pellentesque pharetra ullamcorper nisl...</p>
+</span>
+</li>
+
+<li class="s3sliderImage">
+
+<img src="http://1.bp.blogspot.com/_Ax-O2ayi6kU/TSGsL0JWogI/AAAAAAAABCw/9iGwmQyS8qo/s1600/3.jpg" />
+<span><strong><a href="#">Vicaris Vacanti Vestibulum</a></strong>
+
+<p>Sed dignissim mauris nec velit ultrices id euismod orci iaculis. Aliquam ut justo id massa consectetur pellentesque pharetra ullamcorper nisl...</p>
+</span>
+</li>
+
+<div class="clear s3sliderImage"></div>
+</ul>
+</div>
