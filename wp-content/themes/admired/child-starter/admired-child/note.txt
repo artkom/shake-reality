@@ -1,0 +1,9 @@
+Admired child theme:
+
+To use the child theme move the admired-child folder to your theme directory.
+
+Helpful child theme info.
+
+	http://codex.wordpress.org/Child_Themes
+	http://wpcandy.com/teaches/custom-hooks-and-pluggable-functions.
+	http://ottopress.com/2010/wordpress-protip-child-themes/

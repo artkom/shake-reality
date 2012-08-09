@@ -1,0 +1,299 @@
+/*
+ * $Date: 2010/02/12 16:48:45 $
+ * $Revision: 1.0 $
+ */
+
+.zmg_clear {
+    clear: both;
+}
+
+.postbox p {
+    text-align : justify;
+}
+
+.postbox .hndle {
+    cursor: pointer;
+}
+
+.zmg_updated, .zmg_error, .zmg_warning {
+    margin            : 5px 0 15px;
+    border            : 1px solid;
+    -moz-border-radius: 3px;
+    padding           : 0 0.6em;
+    line-height       : 16px;
+}
+
+.zmg_updated {
+    background-color: #f9f9f9;
+    border-color    : #b8b8b8;
+}
+
+.zmg_warning {
+    background-color: #ffffe0;
+    border-color    : #e6db55;
+}
+
+.zmg_error {
+    background-color: #ffebe8;
+    border-color    : #cc0000;
+}
+
+.zmg_updated p, .zmg_error p, .zmg_warning p {
+    font-size  : 13px;
+    text-indent: 0;
+    margin     : 0.5em 0;
+    padding    : 2px;
+}
+
+/* ZMG_HEADER CSS */
+
+#zmg_header {
+    margin : 1em 0;
+    padding: 0;
+}
+
+#zmg_logo {
+    display: inline;
+}
+
+#zmg_logo a {
+    width : 171px;
+    height: 60px;
+}
+
+#zmg_title {
+    display    : inline;
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-size  : 36px;
+    font-weight: 400;
+    font-style : italic;
+    color      : #464646;
+    line-height: 40px;
+    padding    : 14px 20px 0;
+    position   : absolute;
+}
+
+#zmg_header_container {
+    width: 100%;
+}
+
+#zmg_header_baner h3 {
+    text-align: center;
+}
+
+#zmg_header_baner .in-baner {
+    display: inline;
+    float  : left;
+}
+
+#zmg_header_baner_left {
+    width      : 27%;
+    margin     : 1.2em 0;
+    line-height: 16px;
+    text-align : center;
+}
+
+#zmg_header_baner_right {
+    width      : 71%;
+    margin-left: 2%;
+}
+
+#zmg_header_baner {
+    margin: 0.5em auto;
+}
+
+#zmg_header_baner a {
+    font-weight: bold;
+}
+
+/* ZMG_HEADER CSS [END] */
+
+/* ZMG_FOOTER CSS */
+
+#zmg_footer {
+    margin  : 1em 0 0;
+    padding : 0;
+}
+
+#zmg_developed {
+}
+
+/* ZMG_FOOTER CSS [END] */
+
+/* ZMG_CENTER CSS */
+
+#zmg_central {
+    margin    : 1em 0 0;
+    padding   : 0;
+    min-height: 100%;
+}
+
+#zmg_container {
+    width  : 74.3%;
+    float  : left;
+    padding: 0.15em;
+}
+
+#zmg_adds {
+    width    : 24.3%;
+    float    : right;
+    padding  : 0.15em;
+}
+
+#zmg_adds .postbox {
+    min-width: 100px;
+}
+
+.zmg_ul_inline li {
+    display: inline;
+}
+
+/* ZMG_CENTER CSS [END] */
+
+/* ZMG_DESCRIPTION CSS */
+
+.zmg_description {
+    display: none;
+}
+
+.zmg_desc_overlay {
+    height          : 100%;
+    width           : 100%;
+    position        : fixed;
+    left            : 0;
+    top             : 0;
+    z-index         : 100;
+    background-color: #000000;
+    opacity         : .67;
+}
+
+.zmg_desc_window {
+    -moz-box-shadow              : 0 4px 30px #000000;
+    border-style                 : solid;
+    -moz-background-clip         : border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin       : padding;
+    -moz-border-radius           : 6px;
+    margin-left                  : -315px;
+    margin-top                   : -200px;
+    width                        : 630px;
+    background                   : #ffffff none repeat scroll 0 0;
+    border                       : 1px solid #555555;
+    position                     : fixed;
+    left                         : 50%;
+    top                          : 50%;
+    z-index                      : 102;
+
+}
+
+.zmg_desc_top {
+    height                        : 26px;
+    color                         : #464646;
+    -moz-background-clip          : border;
+    -moz-background-inline-policy : continuous;
+    -moz-background-origin        : padding;
+    background                    : #DFDFDF url(../images/gray-grad.png) repeat-x scroll left top;
+    text-shadow                   : 0 1px 0 #FFFFFF;
+    -moz-border-radius-bottomleft : 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-topleft    : 6px;
+    -moz-border-radius-topright   : 6px;
+}
+
+.zmg_desc_title {
+    display    : block;
+    font-size  : 12px;
+    font-weight: bold;
+    line-height: 1;
+    margin     : 0;
+    padding    : 7px 9px;
+}
+
+.zmg_desc_close {
+    -moz-background-clip         : border;
+    -moz-background-inline-policy: continuous;
+    -moz-background-origin       : padding;
+    -moz-border-radius-topright  : 6px;
+    float                        : right;
+    height                       : 17px;
+    width                        : 23px;
+    padding                      : 4px 0px 5px 2px;
+}
+
+.zmg_desc_close:hover {
+    cursor: pointer;
+}
+
+.zmg_desc_content {
+    margin  : 10px;
+    position: relative;
+}
+
+.zmg_desc_content p {
+    padding: 5px 0;
+}
+
+.zmg_desc_content ul {
+    list-style-type: square;
+    margin-left    : 2em;
+}
+
+.zmg_desc_content img {
+    clear: both;
+    margin: 0.5em auto;
+}
+
+/* ZMG_DESCRIPTION CSS [END] */
+
+/* ZMG_PLUGINS CSS */
+
+#zamango-plugins-table {
+    position: relative;
+    margin     : 0.8em;
+    width      : 97%;
+    line-height: 15px ;
+}
+
+#zamango-plugins-table th {
+    text-align: left;
+    width     : 85%;
+    padding   : 0.25em 0;
+}
+
+#zamango-plugins-table td {
+    text-align: right;
+    width     : 15%;
+}
+
+/* ZMG_PLUGINS CSS [END] */
+
+/* ZMG_FORM_TABLE */
+
+.form-table tr th {
+    font-weight: bold;
+    width      : 30%;
+}
+
+.form-table tr td {
+    width: 70%;
+}
+
+.form-table * a {
+    cursor:help;
+}
+
+.zmg_long_text_input {
+    width: 100%;
+}
+
+.form-table * textarea {
+    width: 100%;
+}
+
+.zmg_ul_inline li {
+    margin : 1px;
+    padding: 3px;
+}
+
+/* ZMG_FORM_TABLE [END] */
+
